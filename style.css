@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image:url(../ganyu/imagenes/G.jpg);
+background-size: contain; 
+background-size: cover;   
+    margin: 30px;
+   width: 800px;
+   
+}
+
+
+
+h1{
+    -webkit-text-stroke: 1px cornflowerblue;
+    position: relative;
+    left: 70px;
+    font-size:50px;
+    margin: 60px;
+    text-shadow: 0 0 5px cornflowerblue, 0 0 15px cornflowerblue, 0 0 30px cornflowerblue, 0 0 50px rgb(44, 111, 235);
+    animation: parpadear 4s infinite backwards steps(3);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+    
+}
+.me{
+border: 1px solid cornflowerblue;
+width:100px;
+height:30px;
+text-align: center;
+margin: 10px;
+background-color:cornflowerblue;
+
+ 
+
+}
+.me:hover{
+   background-color: darkcyan;
+   transition: 3s;
+}
+.me2{
+     border: 1px solid cornflowerblue;
+     width:100px;
+     height:30px;
+     text-align: center;
+     background-color:cornflowerblue;
+margin: 10px;
+
+}
+.me2:hover{
+    background-color: darkcyan;
+    transition: 3s;
+ }
+
+.me3{
+border: 1px solid cornflowerblue;
+color: aquamarine;
+width:100px;
+height:30px;
+text-align: center;
+margin: 10px;
+background-color:cornflowerblue;
+}
+.me3:hover{
+    background-color: darkcyan;
+    transition: 3s;
+ }
+.text{
+    float: left;
+font-size: 20px;
+text-align: left;
+color: royalblue;
+
+}
+.img{
+    display: flex;
+    border-style: inherit;
+    height: 430px;
+    width:380px;
+    justify-content: flex-end;
+    position: relative;
+    left: 350px;
+    bottom:520px;
+   
+}
+
+.Perfil{
+       font-size: 30px;
+       -webkit-text-stroke: 1px cornflowerblue;
+}
+.textio{
+    font-family: 'Inconsolata', monospace;
+    color: aquamarine;
+}
+.banner{
+      
+  position: relative;
+  bottom: 420px;
+  font-size:14px;
+  font-family: 'Anton', sans-serif;
+  color:dodgerblue;
+}
+.per{
+   font-size: 30px;
+ -webkit-text-stroke: 1px cornflowerblue;
+ position: relative;
+ bottom: 400px;
+}
+.hr{
+    height: 1px;
+    width: 45%;
+    background-color: rgb(249, 249, 249);
+  }
+  .text3{
+    font-size: 20px;
+    color: royalblue;
+    text-align: left;
+  }
+  span{
+    color:chartreuse;
+    
+  }
+  h3{
+    color: black;
+
+  }
+  .hab1{
+    color:chartreuse;
+  }
+  
